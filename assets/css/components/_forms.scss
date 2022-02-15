@@ -1,0 +1,16 @@
+fieldset {
+  border: 2px solid var(--brand);
+}
+
+legend {
+  font-weight: 700;
+  color: var(--brand);
+}
+
+form > * + * {
+  margin-top: 1.5rem;
+}
+
+fieldset > * + * {
+  margin-top: 0.5rem;
+}
